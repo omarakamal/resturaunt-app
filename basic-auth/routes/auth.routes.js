@@ -65,7 +65,7 @@ router.post("/signup", (req, res, next) => {
 
 
 router.get('/login', (req, res, next) => {
-    res.json({login:"Omar"})
+    res.render('/auth/login')
 });
 
 router.post('/login',(req,res)=>{
